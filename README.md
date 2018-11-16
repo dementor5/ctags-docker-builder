@@ -5,10 +5,13 @@ Requirements:
 2. User must manage docker as a non-root user (sudo usermod -aG docker $USER)
 
 To make package run:
+
 ./start.sh
 
-For Install:
+For install:
+
 sudo apt install ./ctags_1-1_amd64.deb
 
-Remove:
+For remove:
+
 sudo apt purge ctags
