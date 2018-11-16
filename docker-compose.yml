@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    hostname: builder
+    environment:
+      - DEBFULLNAME=dementor5
+      - DEBEMAIL=pvvnxdementor5@gmail.com
+    volumes:
+      - ./src:/src
+    working_dir: /src
+    user: user
