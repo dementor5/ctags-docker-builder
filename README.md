@@ -1,4 +1,4 @@
-Build package with last version universal-ctags from git for ubuntu 18.10 by using docker.
+Build package with last version universal ctags from git for ubuntu 18.10 by using docker.
 
 Requirements:
 1. Docker
